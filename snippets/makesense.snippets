@@ -1,0 +1,71 @@
+snippet main
+	public static void main() {
+		${1:/* code */}
+	}
+snippet pu
+	public
+snippet po
+	protected
+snippet pr
+	private
+snippet st
+	static
+snippet fi
+	final
+snippet ab
+	abstract
+snippet cl
+	class ${1} {
+
+	}
+snippet re
+	return
+snippet br
+	break;
+snippet de
+	default:
+		${1}
+snippet ca
+	catch(${1:Exception} ${2:e}) ${3}
+snippet th
+	throw 
+snippet sy
+	synchronized
+snippet im
+	import
+snippet imp
+	implements
+snippet ext
+	extends 
+snippet if
+	if (${1}) ${2}
+snippet el
+	else 
+snippet elif
+	else if (${1}) ${2}
+snippet wh
+	while (${1}) ${2}
+snippet for
+	for (${1}; ${2}; ${3}) ${4}
+snippet fore
+	for (${1} : ${2}) ${3}
+snippet sw
+	switch (${1}) ${2}
+snippet cs
+	case ${1}:
+		${2}
+	${3}
+snippet LN
+	LN ${1:ln_name} = gnew LN({:
+		spideyNeighborhood {
+			neighborhood template ${2:TemplateName}()
+			${3:/* code */}
+			create neighborhood ${4:neighborhoodName} from $2()
+		}
+	:});
+snippet print
+	System.print("${1}\n");
+snippet fun
+	${1:void} ${2:functionName}(${3}) {
+		${4:/* code */}
+	}
